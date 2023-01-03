@@ -22,12 +22,5 @@ for(let i=0; i<btn.length; i++){
 logout.addEventListener('click', function(){
     sessionStorage.removeItem('username');
     sessionStorage.removeItem('password');
-    window.location.href = "../login/login.html";
+    window.location.href = "./index.html";
 })
-
-// <p id="para"></p>
-// <p id="para">knknknknn</p>
-// <p id="para"></p>
-// getElementByID("para") -> <p id="para"></p>
-// querySelectorAll("#para") -> [<p id="para"></p>, <p id="para"></p>, <p id="para"></p>]
-// // <p class="para"></p>
